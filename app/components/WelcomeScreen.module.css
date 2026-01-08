@@ -1,0 +1,29 @@
+.welcomeCard {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 80px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+}
+
+.welcomeTitle {
+  font-size: 48px;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  line-height: 1.2;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .welcomeCard {
+    padding: 40px 24px;
+  }
+
+  .welcomeTitle {
+    font-size: 32px;
+  }
+}
